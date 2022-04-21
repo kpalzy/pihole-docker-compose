@@ -6,7 +6,7 @@
     - environment
       - WEBPASSWORD: 'admin'
   
-**advanced version(without root)**
+**advanced version(with root)**
   - file: docker-compose(root).yml
   - description
     - enrivionment  
