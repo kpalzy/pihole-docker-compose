@@ -1,14 +1,16 @@
 # pihole-docker-compose
-normal version(without root)
+
+**normal version(without root)**
+  - file: docker-compose.yml  
   - description: 
     - environment
       - WEBPASSWORD: 'admin'
-  - file: docker-compose.yml
-
-advanced version(without root)
+  
+**advanced version(without root)**
+  - file: docker-compose(root).yml
   - description
     - enrivionment  
       - WEBPASSWORD: 'admin'
       - DNSMASQ_USER: 'root'
-  - file: docker-compose(root).yml
+  
 
